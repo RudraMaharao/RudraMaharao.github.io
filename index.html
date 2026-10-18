@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rudra Maharao — Data Science &amp; Applied AI</title>
+  <meta name="description" content="Rudra Maharao, B.Tech Data Science student at NMIMS MPSTME, Mumbai, building and deploying applied AI.">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta property="og:title" content="Rudra Maharao — Data Science &amp; Applied AI">
+  <meta property="og:description" content="B.Tech Data Science student at NMIMS MPSTME, Mumbai, building and deploying applied AI.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%230a0a0a'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Helvetica,Arial,sans-serif' font-size='34' font-weight='700' fill='%23ededed'%3ER%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="nav">
+    <a href="#top" class="logo">Rudra Maharao</a>
+    <nav class="links" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#research">Research</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="cta">Get in touch <span class="circle" aria-hidden="true">→</span></a>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero">
+      <div class="hero-top">
+        <div class="meta">
+          <span>Data Science &amp; Applied AI</span>
+          <span>Mumbai, India</span>
+          <span class="status"><span class="dot" aria-hidden="true"></span>Open to internships</span>
+        </div>
+        <!-- Animated dot surface, drawn in script.js. It lifts under the cursor. -->
+        <figure class="visual">
+          <canvas id="surface" role="img" aria-label="Animated field of dots rippling like a wave"></canvas>
+          <figcaption>
+            <span>Fig. 01</span>
+            <span>z = sin(x + t) · cos(y − t)</span>
+          </figcaption>
+        </figure>
+      </div>
+      <h1 class="name">Rudra Maharao</h1>
+    </section>
+
+    <!-- ===== Scrolling stack strip ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track">
+        <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>FastAPI</span><span>Docker</span><span>AWS Lambda</span><span>MongoDB</span><span>Power BI</span><span>YOLO</span><span>RAG</span><span>ESP32-S3</span>
+        <!-- same list again so the loop is seamless -->
+        <span>Python</span><span>PyTorch</span><span>TensorFlow</span><span>scikit-learn</span><span>FastAPI</span><span>Docker</span><span>AWS Lambda</span><span>MongoDB</span><span>Power BI</span><span>YOLO</span><span>RAG</span><span>ESP32-S3</span>
+      </div>
+    </div>
+
+    <!-- ===== About ===== -->
+    <section class="row" id="about">
+      <h2 class="label">About</h2>
+      <p class="lead">B.Tech Data Science student at NMIMS MPSTME, Mumbai. I build and deploy applied AI — physics-informed machine learning, edge AI on microcontrollers and document automation with local LLMs.</p>
+    </section>
+
+    <!-- ===== Work ===== -->
+    <!-- To add a link to a project, copy the FirstShot <a class="pill"> line into that project's .head and change the href. -->
+    <section class="row" id="work">
+      <h2 class="label">Selected work</h2>
+      <ul class="list">
+
+        <li class="project">
+          <span class="num">01</span>
+          <div>
+            <div class="head">
+              <h3>FirstShot <span>— AI paint colour matching &amp; reformulation</span></h3>
+              <a class="pill" href="https://3z6ia3xn7e3ftz6xbflrlj6wca0yqfde.lambda-url.ap-south-1.on.aws/" target="_blank" rel="noopener">Live demo <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="desc">Finds the fewest-pigment recipe that matches a target colour under four light sources, combining Kubelka-Munk physics with a neural-network ensemble trained on 14,000 lab panels. Raised right-first-time matches from 50% to 85% in a simulated lab.</p>
+            <p class="tags">Python · NumPy · scikit-learn · FastAPI · Docker · AWS Lambda</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="num">02</span>
+          <div>
+            <div class="head">
+              <h3>CA Firm Automation Platform</h3>
+            </div>
+            <p class="desc">Extracts bank statements from PDFs, spreadsheets, scans and phone photos and posts validated vouchers to TallyPrime. An offline assistant on local LLMs predicts ledger classifications, flags mispostings and retrieves Income-tax and GST provisions.</p>
+            <p class="tags">Python · Flask · SQLite · Tesseract OCR · Ollama · Qdrant</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="num">03</span>
+          <div>
+            <div class="head">
+              <h3>SnapNPlan <span>— AI study assistant with exam proctoring</span></h3>
+            </div>
+            <p class="desc">Turns photos of notes and textbook pages into quizzes, flashcards and study plans, with a MobileNetV2 page classifier (96.7% accuracy) routing each page. A proctored exam mode spots AI chat and search windows without storing screenshots or video.</p>
+            <p class="tags">Python · Django · TensorFlow · TensorFlow.js · OCR · Gemini API</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="num">04</span>
+          <div>
+            <div class="head">
+              <h3>Indian Packaged Food Nutrition Analysis</h3>
+            </div>
+            <p class="desc">Cleaned ~19,000 products from Open Food Facts in MongoDB, lifting usable records from 41% to 78%, then built a 5-page Power BI dashboard on nutritional quality, HFSS compliance and ultra-processed foods.</p>
+            <p class="tags">MongoDB · Python · Power BI · DAX</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <span class="num">05</span>
+          <div>
+            <div class="head">
+              <h3>FireGuard <span>— edge-AI kitchen fire detector</span></h3>
+            </div>
+            <p class="desc">Offline fire and smoke detection that runs entirely on an ESP32-S3: a YOLO11 model cut to 12× fewer parameters (19.1 MB to 0.96 MB) while keeping 94% of its mAP50, fused with gas sensors to send 4G SMS alerts.</p>
+            <p class="tags">ESP32-S3 · YOLO11 · PyTorch · ESP-IDF · C++</p>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ===== Research ===== -->
+    <section class="row" id="research">
+      <h2 class="label">Research</h2>
+      <div class="item">
+        <div class="head">
+          <h3>Predicting fishing effort displacement and the net benthic benefit of fisheries closures</h3>
+          <span class="badge">Ongoing</span>
+        </div>
+        <p class="desc">A sequence-based framework on satellite AIS vessel-tracking data that predicts how fishing fleets redistribute after area closures in the North-East Atlantic, combining temporal modelling, location-choice benchmarks and seabed habitat sensitivity.</p>
+        <p class="tags">Supervisor: Dr. Meenal Mategaonkar</p>
+      </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="row" id="experience">
+      <h2 class="label">Experience</h2>
+      <ul class="list">
+        <li class="job">
+          <h3>Data Analyst Intern <span>· JS Finserve</span></h3>
+          <span class="date">Jun 2026</span>
+          <p>Analysed investment and portfolio data and prepared fiscal reports on portfolio performance.</p>
+        </li>
+        <li class="job">
+          <h3>Game Tester <span>· WeTest</span></h3>
+          <span class="date">May – Jul 2026</span>
+          <p>Reported 20+ bugs and glitches and evaluated game performance, controls and user experience.</p>
+        </li>
+        <li class="job">
+          <h3>Mathematics Tutor <span>· Anubhavi Foundation</span></h3>
+          <span class="date">Jun – Jul 2025</span>
+          <p>Taught foundational algebra to 8 Grade 10 students through one-to-one support.</p>
+        </li>
+        <li class="job">
+          <h3>Data Analyst Intern <span>· Bignalytics</span></h3>
+          <span class="date">May – Jun 2025</span>
+          <p>Preprocessed business data for a training provider and built 10+ reports and Power BI visualisations.</p>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="row" id="skills">
+      <h2 class="label">Skills</h2>
+      <div class="skills">
+        <div>
+          <h3>Languages</h3>
+          <ul class="bullets">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>C++</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Machine learning &amp; AI</h3>
+          <ul class="bullets">
+            <li>PyTorch, TensorFlow, Keras</li>
+            <li>scikit-learn, NumPy, pandas</li>
+            <li>CNNs, transfer learning, YOLO</li>
+            <li>Model compression</li>
+            <li>RAG, Ollama, Qdrant</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Data &amp; analytics</h3>
+          <ul class="bullets">
+            <li>MongoDB</li>
+            <li>SQLite</li>
+            <li>Power BI (DAX, star schema)</li>
+            <li>Data wrangling &amp; visualisation</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Engineering &amp; cloud</h3>
+          <ul class="bullets">
+            <li>FastAPI, Django, Flask</li>
+            <li>Docker, AWS Lambda &amp; ECR</li>
+            <li>Linux, Git &amp; GitHub</li>
+            <li>ESP-IDF, Tesseract OCR</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Education ===== -->
+    <section class="row" id="education">
+      <h2 class="label">Education</h2>
+      <div class="job">
+        <h3>B.Tech Data Science</h3>
+        <p>NMIMS University, Mukesh Patel School of Technology Management &amp; Engineering (MPSTME), Mumbai</p>
+      </div>
+    </section>
+
+    <!-- ===== Certifications ===== -->
+    <section class="row" id="certifications">
+      <h2 class="label">Certifications</h2>
+      <ul class="bullets certs">
+        <li>MongoDB Certified Database Administrator <span>MongoDB</span></li>
+        <li>RAG Systems &amp; Agentic Workflows with Pinecone and LangGraph <span>Board Infinity · Coursera</span></li>
+        <li>Neural Networks and Deep Learning <span>DeepLearning.AI · Coursera</span></li>
+        <li>Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization <span>DeepLearning.AI · Coursera</span></li>
+      </ul>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="row" id="contact">
+      <h2 class="label">Contact</h2>
+      <div>
+        <p class="note">Open to internships in data science and applied AI.</p>
+        <a class="email" href="mailto:rudramaharao@gmail.com"><span>rudramaharao@gmail.com</span><span class="circle" aria-hidden="true">↗</span></a>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/rudra-maharao-a040b9331/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/RudraMaharao" target="_blank" rel="noopener">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <span>© <span id="year">2026</span> Rudra Maharao</span>
+    <span>Mumbai · <span id="clock">--:--</span> IST</span>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
